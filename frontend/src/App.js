@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Content />
 
-      COUCOU MARCHE
+      ESSAI GIT PROJET
     </div>
   );
 }
