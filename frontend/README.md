@@ -14,3 +14,7 @@ Le dossier src/stories sert de modèle et est a remplacer par vos widgets.
 Vous pourrez supprimer le contenu de ce README et vous l'approprier en y notant les éléments importants de votre projet. Il est très important de bien documenter un projet !
 
 Inspirez-vous des grands repos open sources qui existent sur github. Les informations qui reviennent souvent sont une description du projet (pourquoi, comment...), la maniere de lancer le projet et eventuellement d'y contribuer, une documentation sur des éléments que vous voulez mettre en avant et pour finir les noms des contributeurs.
+
+Lien public de notre Trello : https://trello.com/invite/b/sGOIxYof/ATTIc2c8c8bb9214a34e528f1d1d54691e85B7794658/projetweb
+
+              
