@@ -8,8 +8,7 @@ function App() {
   return (
     <div className="App">
       <Content />
-
-      ESSAI GIT PROJET
+klfnvblabar
     </div>
   );
 }
