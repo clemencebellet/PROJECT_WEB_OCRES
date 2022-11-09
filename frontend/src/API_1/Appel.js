@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import DataAPI from './main/dataAPI';
-import './main/components/body.css'
+import DataAPI from './dataAPI_1';
 
-export default class API extends React.Component {
+
+export default class Appel extends React.Component {
     constructor(props) {
         super(props);
         this.state = { info: {} };

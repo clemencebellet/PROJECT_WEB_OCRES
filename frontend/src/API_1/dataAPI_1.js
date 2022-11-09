@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../main/components/body.css'
 
 export default class dataAPI extends React.Component {
     render() {
@@ -11,26 +12,17 @@ export default class dataAPI extends React.Component {
                             <br />
 
                             {this.props.obj.population}
-                        </td>
-                    </div>
-                    <div className="InfosVille">
-                        <td>
-                            Country
+                            <br />
+                            <br />
+                            Currency
                             <br />
 
-                            {this.props.obj.country}
+                            {this.props.obj.population}
                         </td>
                     </div>
 
-                    <div className="InfosVille">
-                        <td>
-                            Latitude -- Longitude
-                            <br />
-
-                            {this.props.obj.latitude}°  -- {this.props.obj.longitude}°
-                        </td>
-                    </div>
                     <td>
+
 
                     </td>
 
