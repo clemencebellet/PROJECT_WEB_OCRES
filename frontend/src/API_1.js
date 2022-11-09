@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import DataAPI from './main/dataAPI';
+import './main/components/body.css'
 
 export default class API extends React.Component {
     constructor(props) {
@@ -33,7 +34,7 @@ export default class API extends React.Component {
     dataAPI() {
         const propertyValues = Object.values(this.state.info);
         return propertyValues.map((data, i) => {
-            return <DataAPI obj={data} key={i} />; // erreur s'enleve en enlevant le return
+            return <DataAPI obj={data} key={i} />;
         });
     }
 
@@ -45,8 +46,7 @@ export default class API extends React.Component {
                 <div className="container">
 
                     <tr>
-                        <td>Name</td>
-                        <td>population</td>
+
                     </tr>
 
                     <tbody>
