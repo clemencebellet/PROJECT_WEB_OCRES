@@ -14,10 +14,10 @@ export default class dataAPI extends React.Component {
                             {this.props.obj.population}
                             <br />
                             <br />
-                            Currency
+                            Country
                             <br />
 
-                            {this.props.obj.population}
+                            {this.props.obj.country}
                         </td>
                     </div>
 

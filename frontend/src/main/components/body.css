@@ -15,11 +15,30 @@
 
 }
 
+
+
 body {
-    background-color: #ff4f52;
+    background-color: LightBlue;
     font-family: "Lato", sans-serif;
     display: flex;
     justify-content: center;
 
     align-items: center;
+}
+
+h1 {
+    padding: 10px;
+    color: white;
+}
+
+.departs {
+    background-color: rgb(6, 6, 6);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.departs table {
+    background-color: rgb(46, 46, 46);
+    text-align: left;
+    color: white;
 }
