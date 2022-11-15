@@ -3,23 +3,49 @@ import '../main/components/body.css'
 
 export default class dataAPI extends React.Component {
     render() {
+        const { propertyValues } = this.props;
+
         return (
             <body>
-                ✈︎
                 {'      '}
-                {this.props.obj.flightNumber}
-                {'      '}
-                {this.props.obj.programmedHour}
-                {'      '}
-                {this.props.obj.destiny}
-                {'      '}
-                {this.props.obj.companyName}
-                {'      '}
-                {this.props.obj.state}
-                {'      '}
-                {this.props.obj.terminal}
+
+                <div className="departs">
+                    <h1>DEPARTURES</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th id="time">TIME</th>
+                                <th id="destination">DESTINATION</th>
+                                <th id="flight">FLIGHT</th>
+                                <th id="gate">GATE</th>
+                                <th id="remarks">REMARKS</th>
 
 
+                            </tr>
+                        </thead>
+                        <tbody id="table-body">
+
+                            {propertyValues.map((obj) => (<div>
+
+                                {obj.flightNumber}
+                                {'      '}
+                                {obj.programmedHour}
+                                {'      '}
+                                {obj.destiny}
+                                {'      '}
+                                {obj.companyName}
+                                {'      '}
+                                {obj.state}
+                                {'      '}
+                                {obj.terminal}
+                            </div>))}
+
+                        </tbody>
+
+
+                    </table>
+                </div>
 
             </body >
         );

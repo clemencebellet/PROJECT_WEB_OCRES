@@ -33,9 +33,9 @@ export default class Appel2 extends React.Component {
 
     dataAPI() {
         const propertyValues = Object.values(this.state.info);
-        return propertyValues.map((data, i) => {
-            return <DataAPI obj={data} key={i} />;
-        });
+
+        return <DataAPI propertyValues={propertyValues} />;
+
     }
 
 
