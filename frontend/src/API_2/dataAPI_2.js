@@ -15,13 +15,12 @@ export default class dataAPI extends React.Component {
                         <thead>
                             <tr>
                                 <th></th>
+                                <th id="flight">FLIGHT</th>
                                 <th id="time">TIME</th>
                                 <th id="destination">DESTINATION</th>
-                                <th id="flight">FLIGHT</th>
+                                <th id="company">COMPANY</th>
                                 <th id="gate">GATE</th>
                                 <th id="remarks">REMARKS</th>
-
-
                             </tr>
                         </thead>
                         <tbody id="table-body">
@@ -30,15 +29,16 @@ export default class dataAPI extends React.Component {
 
                                 {obj.flightNumber}
                                 {'      '}
-                                {obj.programmedHour}
+                                {obj.estimadedhour}
                                 {'      '}
                                 {obj.destiny}
                                 {'      '}
                                 {obj.companyName}
                                 {'      '}
-                                {obj.state}
-                                {'      '}
                                 {obj.terminal}
+                                {'      '}
+                                {obj.state}
+
                             </div>))}
 
                         </tbody>
