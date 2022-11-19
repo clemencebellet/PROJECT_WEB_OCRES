@@ -7,45 +7,85 @@ export default class dataAPI extends React.Component {
 
         return (
             <body>
-                {'      '}
 
-                <div className="departs">
-                    <h1>DEPARTURES</h1>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th id="flight">FLIGHT</th>
-                                <th id="time">TIME</th>
-                                <th id="destination">DESTINATION</th>
-                                <th id="company">COMPANY</th>
-                                <th id="gate">GATE</th>
-                                <th id="remarks">REMARKS</th>
-                            </tr>
-                        </thead>
-                        <tbody id="table-body">
+                <table class="container">
+                    <thead>
+                        <tr>
+                            <th><h1>Flight</h1></th>
 
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
                             {propertyValues.map((obj) => (<div>
 
-                                {obj.flightNumber}
-                                {'      '}
-                                {obj.estimadedhour}
-                                {'      '}
-                                {obj.destiny}
-                                {'      '}
-                                {obj.companyName}
-                                {'      '}
-                                {obj.terminal}
-                                {'      '}
-                                {obj.state}
+                                <td><th>{obj.flightNumber}</th></td>
 
                             </div>))}
+                        </tr>
 
-                        </tbody>
+                    </tbody>
+                </table>
 
+                <table class="container">
+                    <thead>
+                        <tr>
+                            <th><h1>Destination</h1></th>
 
-                    </table>
-                </div>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            {propertyValues.map((obj) => (<div>
+
+                                <td><th>{obj.destiny}</th></td>
+
+                            </div>))}
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <table class="container">
+                    <thead>
+                        <tr>
+                            <th><h1>Gate</h1></th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            {propertyValues.map((obj) => (<div>
+
+                                <td><th>{obj.firstDoor}</th></td>
+
+                            </div>))}
+                        </tr>
+
+                    </tbody>
+                </table>
+                <table class="container">
+                    <thead>
+                        <tr>
+                            <th><h1>Remarks</h1></th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            {propertyValues.map((obj) => (<div>
+
+                                <td><th>{obj.state}</th></td>
+
+                            </div>))}
+                        </tr>
+
+                    </tbody>
+                </table>
 
             </body >
         );

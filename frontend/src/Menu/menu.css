@@ -1,14 +1,25 @@
-nav{
+nav {
     width: 100px;
     background-color: rgb(37, 37, 37);
 }
-.liste{
+
+.liste {
     list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.items{
+
+.items {
     margin-bottom: 10px;
     cursor: pointer;
+}
+
+body {
+    font-size: .875rem;
+}
+
+.feather {
+    width: 16px;
+    height: 16px;
 }

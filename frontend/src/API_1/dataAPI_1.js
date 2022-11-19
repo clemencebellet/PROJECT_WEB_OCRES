@@ -1,30 +1,26 @@
 import React, { Component } from 'react';
 import '../main/components/body.css'
 
+
 export default class dataAPI extends React.Component {
     render() {
         return (
             <body>
+                <img src="API_1/population.jpg" alt="cc" />
                 <tr>
                     <div className="InfosVille">
+
                         <td>
-                            Population
-                            <br />
+
+                            <th>Population</th>
+
 
                             {this.props.obj.population}
-                            <br />
-                            <br />
-                            Country
-                            <br />
-
-                            {this.props.obj.country}
                         </td>
+
                     </div>
 
-                    <td>
 
-
-                    </td>
 
                 </tr>
             </body >
