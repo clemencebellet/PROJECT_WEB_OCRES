@@ -16,6 +16,7 @@ function App() {
       <Content2 />
       <Weather />
       <Forecast />
+      Essai pour pb enregistrement page
 
 
     </div>
