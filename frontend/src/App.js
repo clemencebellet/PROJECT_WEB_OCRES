@@ -5,6 +5,9 @@ import Content from "./API_1/Appel.js"
 import Content2 from "./API_2/Appel_2.js"
 import Weather from "./Meteo/APIweather"
 import Forecast from "./Meteo/APIforecast"
+import Nav from "./main/components/Sidebar"
+
+
 
 
 
@@ -12,11 +15,14 @@ function App() {
 
   return (
     <div className="App">
-      <Content />
-      <Content2 />
-      <Weather />
-      <Forecast />
-      Essai pour pb enregistrement page
+      <Nav />
+      {/* <Content /> */}
+      {/* <Content2 /> */}
+      {/* <Weather /> */}
+      {/* <Forecast /> */}
+
+
+
 
 
     </div>
