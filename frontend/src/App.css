@@ -1,4 +1,24 @@
 .App {
-  text-align: center;
-
+display: flex;
+text-align: center;
+width: 100vw;
+height: 100vh;
+}
+.flex1{
+  display: flex;
+  justify-self: flex-start;
+ 
+}
+.flex2{
+  display: flex;
+  flex-wrap: wrap ;
+}
+.a1, .a2{
+  flex-basis: 48%;
+}
+.a3{
+  flex-basis: 100%;
+}
+.a4{
+  flex-basis: 100%; 
 }
