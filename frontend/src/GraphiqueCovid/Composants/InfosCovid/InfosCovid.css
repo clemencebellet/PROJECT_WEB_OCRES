@@ -1,0 +1,24 @@
+.container {
+  margin: 40px 0px;
+  /* rajout ligne ici pour changer la position des 3 cartes */
+
+}
+
+
+
+.cas {
+  background-color: rgba(102, 179, 255, 0.5) !important;
+  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+  /* ici pour changer couleur de fond de la carte cas */
+}
+
+
+.deces {
+  background-color: rgba(237, 178, 178, 0.5) !important;
+  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+.actif {
+  background-color: rgba(0, 242, 8, 0.5) !important;
+  border-bottom: 10px solid rgba(0, 242, 8, 0.5);
+}
