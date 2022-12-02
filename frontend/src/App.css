@@ -1,24 +1,51 @@
+body{
+  background-color: aliceblue;
+}
 .App {
 display: flex;
 text-align: center;
 width: 100vw;
 height: 100vh;
 }
-.flex1{
-  display: flex;
-  justify-self: flex-start;
- 
-}
+
+
 .flex2{
   display: flex;
-  flex-wrap: wrap ;
+  flex-flow: row wrap ;
+  justify-content: space-between;
 }
-.a1, .a2{
-  flex-basis: 48%;
+.a1{
+  width: 75%;
+  height: 30%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5%;
 }
-.a3{
-  flex-basis: 100%;
+
+.a3, .a4{
+  width: 30%;
+  height: 30%;
+  background-color: green;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2.5%;
 }
-.a4{
-  flex-basis: 100%; 
+
+.a5{
+  width: 75%;
+  height: 30%;
+  background-color: orange;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+.a6{
+  height: 99%;
+  width: 25%;
+  background-color: white;
+  margin-right: 2.5%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
 }

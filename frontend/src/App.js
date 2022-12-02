@@ -13,16 +13,40 @@ function App() {
 
   return (
     <div className="App">
-      <div className='flex1'>
+
+      <div className='menu'>
        <Menu />
        </div>
-       <div className='flex2'>
-      <div className='a1'><Content /></div>
-      <div className='a2'><Content2 /></div>
-      <div className='a3'><Weather /></div>
-      <div className='a4'><Forecast /></div>
+       
+     <div className='flex2'> 
+      <div className='a1'>
+        1
+        
+         {/* <Weather />  */}
+        2
+        
+        {/* <Forecast /> */}
+        </div>
      
+        
+        
+      <div className='a3'>
+        3
+        {/* <Content /> */}
+        
+        </div>
+        <div className='a4'>
+          4
+          
+          </div>
+          <div className='a5'>
+          5
+          {/* <Content2 /> */}
+          </div>
       </div>
+      <div className='a6'>
+          6
+          </div>
     </div>
   );
 }

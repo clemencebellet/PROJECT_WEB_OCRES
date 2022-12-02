@@ -7,7 +7,7 @@ export default class Menu extends Component{
             <h3>CityBoard</h3>
             <nav>
                 <a href="/#">Dashboard</a>
-                <a href="/#">Change API</a>
+                <a href="/#">Modification</a>
                 
             </nav>
             

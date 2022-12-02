@@ -23,14 +23,21 @@ export default class dataAPI extends React.Component {
                 <div >
 
                     Lattitude
-                    {"       "} | {"       "}
+                    
+                </div>
+
+                <span >
+                    {this.props.obj.latitude}{"°"}
+                    </span>
+                    <div >
                     Longitude
                 </div>
 
                 <span >
                     {this.props.obj.latitude}{"°"}
-                    {"      "} | {"      "}
+                    {"      "} 
                     {this.props.obj.longitude}{"°"}</span>
+                
 
 
 
