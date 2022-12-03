@@ -7,9 +7,6 @@ import Forecast from "./Meteo/APIforecast";
 import Menu from "./Menu/Menu";
 import Covid from "./GraphiqueCovid/Graph"
 
-
-
-
 function App() {
 
   return (
@@ -18,8 +15,7 @@ function App() {
        <Menu />
        </div>
        <div className='flex2'>
-      <div className='a1'><Weather /></div>
-      <div className='a2'><Forecast /></div>
+      <div className='a1'><Weather /><Forecast /></div>
       <div className='a3'><Content /></div>
       <div className='a4'><Covid /></div>
       <div className='a5'><Content2 /></div>

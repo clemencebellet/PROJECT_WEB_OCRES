@@ -36,7 +36,7 @@ const InfosCovid = ({
   return (
     <div className={styles.container}>
       {/* Espace entre les cartes infos */}
-      <Grid container spacing={3}>
+      <Grid container spacing={10}>
 
         {informations.map((detail, index) => (
           // Modification de l'interieur d'une carte

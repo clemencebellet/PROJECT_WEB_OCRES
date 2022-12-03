@@ -9,34 +9,37 @@ export default class dataAPI extends React.Component {
 
 
             <div className="InfosVille">
+                <div className='item1'>
                 <div >
 
-                    <img className="imgpopu" src={logopopu} alt="fireSpot" height="25px" width="30px" /> Population
+                    {/* <img className="imgpopu" src={logopopu} alt="fireSpot" height="25px" width="30px" />  */}
+                    Population : 
 
                 </div>
                 <span >
+                {" "} 
                     {this.props.obj.population}
                 </span>
-
-
-
+                </div>
+                <div className='item2'>
                 <div >
-
-                    Lattitude
-                    
+                    Lattitude : 
                 </div>
 
                 <span >
+                {" "} 
                     {this.props.obj.latitude}{"°"}
                     </span>
+                    </div>
+                    <div className='item3'>
                     <div >
-                    Longitude
+                    Longitude : 
                 </div>
 
                 <span >
-                    {this.props.obj.latitude}{"°"}
-                    {"      "} 
+                    {" "} 
                     {this.props.obj.longitude}{"°"}</span>
+                    </div>
                 
 
 

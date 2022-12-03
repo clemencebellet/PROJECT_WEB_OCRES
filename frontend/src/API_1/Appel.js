@@ -16,7 +16,7 @@ export default class Appel extends React.Component {
             url: 'https://wft-geo-db.p.rapidapi.com/v1/geo/cities/Q60',
             params: { limit: '10', page: '0' },
             headers: {
-                'x-rapidapi-key': '31fa019259msh78cc86ea24c3c89p1b41a4jsn41d6981f552a', // mettre sa propre clé API pour que ça marche je pense, aller sur le lien en haut et s'inscrire
+                'x-rapidapi-key': '31fa019259msh78cc86ea24c3c89p1b41a4jsn41d6981f552a',
                 'x-rapidapi-host': 'wft-geo-db.p.rapidapi.com'
             }
         };
@@ -40,14 +40,10 @@ export default class Appel extends React.Component {
 
     render() {
         return (
-            <div className="index">
+            
+                <div >
 
-                <br></br>
-                <div className="container1">
-
-                    <tr>
-
-                    </tr>
+                    
 
                     <tbody>
                         {
@@ -55,8 +51,7 @@ export default class Appel extends React.Component {
                         }
                     </tbody>
                 </div>
-                <br></br>
-            </div>
+                
         )
     }
 
