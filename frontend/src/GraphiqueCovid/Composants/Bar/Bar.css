@@ -1,5 +1,7 @@
 .container {
+
   display: flex;
   justify-content: center;
   /* ici pour changer taille du graphique en entier */
+
 }

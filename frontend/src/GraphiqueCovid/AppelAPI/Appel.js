@@ -7,7 +7,7 @@ export const fetchData = async (country) => {
   try {
     const {
       data: { confirmed, deaths, lastUpdate },
-    } = await axios.get(`${url}/countries/spain`);
+    } = await axios.get(`${url}/countries/us`);
 
     return {
       confirmed,

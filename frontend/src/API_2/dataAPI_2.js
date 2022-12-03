@@ -20,7 +20,7 @@ export default class dataAPI extends React.Component {
                         <tr>
                             {propertyValues.map((obj) => (<div>
 
-                                <td><th>{obj.flightNumber}</th></td>
+                                <td><th>{obj.flight_number}</th></td>
 
                             </div>))}
                         </tr>
@@ -40,7 +40,7 @@ export default class dataAPI extends React.Component {
                         <tr>
                             {propertyValues.map((obj) => (<div>
 
-                                <td><th>{obj.destiny}</th></td>
+                                <td><th>{obj.arr_iata}</th></td>
 
                             </div>))}
                         </tr>
@@ -60,7 +60,7 @@ export default class dataAPI extends React.Component {
                         <tr>
                             {propertyValues.map((obj) => (<div>
 
-                                <td><th>{obj.firstDoor}</th></td>
+                                <td><th>{obj.dep_gate}</th></td>
 
                             </div>))}
                         </tr>
@@ -70,7 +70,7 @@ export default class dataAPI extends React.Component {
                 <table class="container">
                     <thead>
                         <tr>
-                            <th><h1>Remarks</h1></th>
+                            <th><h1>Estimé</h1></th>
 
                         </tr>
                     </thead>
@@ -79,7 +79,7 @@ export default class dataAPI extends React.Component {
                         <tr>
                             {propertyValues.map((obj) => (<div>
 
-                                <td><th>{obj.state}</th></td>
+                                <td><th>{obj.dep_time}</th></td>
 
                             </div>))}
                         </tr>

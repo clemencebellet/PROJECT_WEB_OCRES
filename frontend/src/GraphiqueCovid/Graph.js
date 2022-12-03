@@ -8,7 +8,7 @@ import { fetchData } from "./AppelAPI/Appel";
 class Graph extends React.Component {
   state = {
     data: {},
-    country: "Espagne", //On définit le pays des le debut
+    country: "United States", //On définit le pays des le debut
   };
   async componentDidMount() {
     const fetchedData = await fetchData();

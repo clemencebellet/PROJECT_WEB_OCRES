@@ -15,7 +15,7 @@ export default class APIforecast extends Component {
 
     callAPI() {
         axios
-            .get(`https://api.openweathermap.org/data/2.5/forecast?q=paris&units=imperial&appid=82e6a246afbe12d618c1124536cb35e5
+            .get(`https://api.openweathermap.org/data/2.5/forecast?q=New York&units=imperial&appid=82e6a246afbe12d618c1124536cb35e5
             `)
             .then(({ data }) => {
                 console.log(data);

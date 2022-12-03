@@ -7,6 +7,7 @@ Chart.register(LineController, LineElement, PointElement, LinearScale, BarContro
 
 const Graphe = ({ data: { confirmed, deaths }, country }) => {
   let lineChart;
+  <canvas id="myChart" width="400" height="400"></canvas>
 
   const [dailyData, setDailyData] = useState([]);
 
@@ -22,36 +23,43 @@ const Graphe = ({ data: { confirmed, deaths }, country }) => {
   //Création  du graphique en barre
 
   const GraphiqueBAR = confirmed ? (
-    <Bar
-      data={{
-        labels: ["Cas", "Décès", "Actif"], //Texte en dessous du graph
+    <div style={{ width: "70vh" }}>
+      {/* Normalement ca marche pour changer la taille du graphique */}
+      <Bar
+        data={{
+          labels: ["Cas", "Décès", "Actif"], //Texte en dessous du graph
 
-        datasets: [
-          {
-            //Couleur des blocs de barre
-            backgroundColor: [
-              "rgba(0, 0, 255, 0.5)",
-              "rgba(255, 0, 0, 0.5)",
-              "rgba(0, 255, 0, 0.5)",
-            ],
-            //Informations reucp de l'api 
-            data: [
-              confirmed.value,
-              deaths.value,
-              confirmed.value - deaths.value,
-            ],
+          datasets: [
+            {
+              //Couleur des blocs de barre
+              backgroundColor: [
+                "rgba(0, 0, 255, 0.5)",
+                "rgba(255, 0, 0, 0.5)",
+                "rgba(0, 255, 0, 0.5)",
+              ],
+              //Informations reucp de l'api 
+              data: [
+                confirmed.value,
+                deaths.value,
+                confirmed.value - deaths.value,
+              ],
 
-          },
-        ],
-      }}
+            },
+          ],
+        }}
 
-    />
+      />
+    </div>
+
   ) : null;
 
+
   return (
+
     <div className="container">
       {GraphiqueBAR}
     </div>
+
 
   );
 };
