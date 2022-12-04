@@ -1,0 +1,23 @@
+.form-control {
+    width: 190px;
+    height: 30px;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(32, 42, 51);
+    ;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    padding: 20px;
+    width: 150px;
+
+    margin: 5px;
+}
+
+.ensemble {
+    padding-left: 500px;
+}
