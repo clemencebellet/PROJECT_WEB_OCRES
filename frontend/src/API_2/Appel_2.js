@@ -35,19 +35,14 @@ export default class Appel2 extends React.Component {
 
     render() {
         return (
-            <div className="index">
-
-
-                <div className="container">
-
-
+           
+                <div >
                     {
                         this.dataAPI()
                     }
-
                 </div>
 
-            </div>
+           
         )
     }
 
