@@ -23,8 +23,8 @@ const Graphe = ({ data: { confirmed, deaths }, country }) => {
   //Création  du graphique en barre
 
   const GraphiqueBAR = confirmed ? (
-    <div style={{ width: "70vh" }}>
-      {/* Normalement ca marche pour changer la taille du graphique */}
+    <div className="graph" style={{ width: "50vh" }}>
+      {/* taille du graphique */}
       <Bar
         data={{
           labels: ["Cas", "Décès", "Actif"], //Texte en dessous du graph
@@ -56,7 +56,7 @@ const Graphe = ({ data: { confirmed, deaths }, country }) => {
 
   return (
 
-    <div className="container">
+    <div className="containerGraphe ">
       {GraphiqueBAR}
     </div>
 

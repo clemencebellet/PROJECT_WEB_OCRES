@@ -1,7 +1,7 @@
-.container {
-
-  display: flex;
-  justify-content: center;
+.containerGraphe {
+  width: 100%;
+  text-align: center;
+    display: flex;
   /* ici pour changer taille du graphique en entier */
 
 }

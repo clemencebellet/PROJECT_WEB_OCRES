@@ -34,20 +34,21 @@ const InfosCovid = ({
     },
   ];
   return (
+    <div className="styleCarte">
     <div className={styles.container}>
       {/* Espace entre les cartes infos */}
-      <Grid container spacing={10}>
+      <Grid container spacing={13}>
 
         {informations.map((detail, index) => (
           // Modification de l'interieur d'une carte
           <Grid
             item
             component={Card}
-            xs={12}
-            md={2}
+            xs={20} 
+            md={4}
             className={cx(styles.Card, detail.style)}
             key={index}
-            style={{ margin: "0px 23.675px", padding: "12px" }}
+            style={{ marginTop: "-20px", padding: "15px" }}
           >
             <CardContent>
               <Typography color="textPrimary" gutterBottom>
@@ -76,6 +77,7 @@ const InfosCovid = ({
           </Grid>
         ))}
       </Grid>
+    </div>
     </div>
   );
 };

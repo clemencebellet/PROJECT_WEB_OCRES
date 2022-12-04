@@ -8,7 +8,8 @@ export default class dataAPI extends React.Component {
         return (
             <body>
 
-                <table class="container">
+                <div className='containerPlane'>
+                <table class="itemPlane">
                     <thead>
                         <tr>
                             <th><h1>Flight</h1></th>
@@ -28,7 +29,7 @@ export default class dataAPI extends React.Component {
                     </tbody>
                 </table>
 
-                <table class="container">
+                <table class="itemPlane">
                     <thead>
                         <tr>
                             <th><h1>Destination</h1></th>
@@ -48,7 +49,7 @@ export default class dataAPI extends React.Component {
                     </tbody>
                 </table>
 
-                <table class="container">
+                <table class="itemPlane">
                     <thead>
                         <tr>
                             <th><h1>Gate</h1></th>
@@ -67,7 +68,7 @@ export default class dataAPI extends React.Component {
 
                     </tbody>
                 </table>
-                <table class="container">
+                <table class="itemPlane">
                     <thead>
                         <tr>
                             <th><h1>Estimé</h1></th>
@@ -86,7 +87,7 @@ export default class dataAPI extends React.Component {
 
                     </tbody>
                 </table>
-
+                </div>
             </body >
         );
     }

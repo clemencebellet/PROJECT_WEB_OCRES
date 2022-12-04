@@ -1,26 +1,29 @@
 .container {
   width: 100%;
+  text-align: center;
   
   /* rajout ligne ici pour changer la position des 3 cartes */
 
 }
 
-
+.styleCarte{
+  margin-top: 20px;
+  margin-left: -200px;
+}
 
 .cas {
   background-color: rgba(102, 179, 255, 0.5) !important;
-  border-bottom: 10px solid rgba(0, 0, 255, 0.5);   
-  font-size: smaller;
+  height: 260px;
   /* ici pour changer couleur de fond de la carte cas */
 }
 
 
 .deces {
   background-color: rgba(237, 178, 178, 0.5) !important;
-  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+  height: 260px;
 }
 
 .actif {
   background-color: rgba(0, 242, 8, 0.5) !important;
-  border-bottom: 10px solid rgba(0, 242, 8, 0.5);
+  height: 260px;
 }

@@ -18,13 +18,14 @@ class Graph extends React.Component {
   render() {
     const { data, country } = this.state; //On recup nos données du state
     return (
-      <div className="container" >
+      <div className="containerGraph" >
 
-
-
+      
         <Bar data={data} country={country} />
+        
         {/* Création graphique bar  */}
         <InfosCovid data={data} country={country} />
+        
         {/* Création infos nombre  */}
 
 

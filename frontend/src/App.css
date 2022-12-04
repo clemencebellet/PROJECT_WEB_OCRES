@@ -1,5 +1,5 @@
 body{
-  background-color: aliceblue;
+  background-color:rgb(50, 50, 90);
 }
 .App {
 display: flex;
@@ -16,46 +16,51 @@ height: 100vh;
   flex-flow: row wrap ;
 } 
 .a1{
-  width: 100%;
+  width: 73%;
   height: 30%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2.5%;
+  margin-left: auto;  
+  margin-right: auto ;
+  margin-top: 5px;
 }
 
 .a3{
-  width: 31%;
-  height: 25%;
-  font-size: 2.5em;
-  background-color: green;
+  width: 35%;
+  height: 195px;
+  font-size: 1.5em; 
+  background-color: white;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 2.5%; 
+  margin-top: 5px; 
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
  .a4{
-  width: 70%;
-  height: 30%;
-  background-color: green;
+  width: 90%;
+  height: 35%;
+  background-color: white;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 2.5%;
+  margin-top: 5px;
 }
 
 .a5{
-  width: 75%;
-  height: 30%;
-  background-color: orange;
+  width: 351px;
+  height: 195px;
+  background-color: rgb(50, 50, 90);
   margin-right: auto;
   margin-left: auto;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .a6{
-  height: 99%;
+  height: 98%;
   width: 25%;
   background-color: white;
-  margin-right: 2.5%;
-  margin-top: 0.5%;
-  margin-bottom: 0.5%;
-  justify-self: flex-end;
+  margin-right: 1.5%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  justify-self: flex-end; 
 }
