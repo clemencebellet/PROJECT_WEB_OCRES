@@ -1,49 +1,48 @@
-@media(min-width: 768px) and (max-width: 1388px) {
-    .menu {
-        height: 100%;
-        width: 25%;
-        background-color: rgb(47, 64, 80);
-        display: flex;
-    }
+.menu {
+    height: 100%;
+    width: 25%;
+    background-color: rgb(47, 64, 80);
+    display: flex;
+}
 
-    .menu h3 {
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
+.menu h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 
-    }
+}
 
-    .menu nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
+.menu nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-    .menu a {
-        display: flex;
-        color: black;
-        text-decoration: none;
-        font-weight: bold;
+.menu a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
 
 
-    }
+}
 
-    .liste {
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.liste {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    .items {
-        margin-bottom: 10px;
-        cursor: pointer;
-    }
+.items {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
 
-    body {
-        font-size: .875rem;
-    }
+body {
+    font-size: .875rem;
+}
 
     .feather {
         width: 16px;
