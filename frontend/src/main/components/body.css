@@ -6,16 +6,28 @@
     min-width: 300px;
     max-width: 700px;
     margin: auto;
-    color:#464A52;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
-    margin-left : 20px;
+    margin-left: 20px;
+}
+
+.titre {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.info {
+    font-weight: bold;
 }
 
 
-.item1, .item2, .item3{
+.item1,
+.item2,
+.item3 {
     display: flex;
-    
+    justify-content: center;
+
 }
 
 h1 {
@@ -40,10 +52,12 @@ h2 a {
 .yellow {
     color: #A9A9A9;
 }
+
 .containerPlane {
     text-align: center;
     display: flex;
 }
+
 .containerPlane th h1 {
     font-weight: bold;
     font-size: 1.5em;
@@ -53,8 +67,8 @@ h2 a {
 }
 
 .containerPlane td {
-        font-weight: normal;
-        font-size: 0.9em;
+    font-weight: normal;
+    font-size: 0.9em;
     -webkit-box-shadow: 0 2px 2px -2px #0E1119;
     -moz-box-shadow: 0 2px 2px -2px #0E1119;
     box-shadow: 0 2px 2px -2px #0E1119;
@@ -70,19 +84,14 @@ h2 a {
     width: 40%;
 }
 
-    .containerPlane tr:nth-child(odd) {
-        background-color: black;
-    }
+.containerPlane tr:nth-child(odd) {
+    background-color: black;
+}
 
-    .containerPlane tr:nth-child(even) {
-        background-color: black;
-    }
+.containerPlane tr:nth-child(even) {
+    background-color: black;
+}
 
-    .containerPlane th {
-        background-color: black;
-    }
-
-
-
-
-
+.containerPlane th {
+    background-color: black;
+}

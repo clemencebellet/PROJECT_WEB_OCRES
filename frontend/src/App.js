@@ -23,15 +23,15 @@ function App() {
         {/* <TachesList /> */}
       </div>
       <div className='flex2'>
-        <div className='a1'><Weather /><Forecast /></div>
+        {/* <div className='a1'><Weather /><Forecast /></div> */}
         <div className='a3'><Content /></div>
-        <div className='a5'><Content2 /></div>
-        <div className='a4'><Covid /></div>
-        </div>
-        <div className='a6'>6</div>
+        {/* <div className='a5'><Content2 /></div> */}
+        {/* <div className='a4'><Covid /></div> */}
+      </div>
+      <div className='a6'>6</div>
 
 
-      
+
     </div>
   );
 }
