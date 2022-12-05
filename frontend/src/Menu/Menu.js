@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom'
 import CreateTache from '../Back/components/create-tache.component';
 import CreateEvent from '../Back/components/create-event.component';
 
+
 export default function Menu() {
     const navigate = useNavigate();
 
@@ -23,6 +24,7 @@ export default function Menu() {
     };
     return (
         <div className='menu'>
+
             <h3>CityBoard</h3>
             <nav>
                 <div>

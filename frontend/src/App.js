@@ -6,7 +6,7 @@ import Weather from "./Meteo/APIweather";
 import Forecast from "./Meteo/APIforecast";
 import Menu from "./Menu/Menu";
 import Covid from "./GraphiqueCovid/Graph"
-import TachesList from './Back/components/taches-list.component';
+import TachesList from "./Back/components/taches-list.component"
 import Prosideb from './main/components/Sidebar'
 
 
