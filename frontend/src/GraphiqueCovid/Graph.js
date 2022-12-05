@@ -20,13 +20,13 @@ class Graph extends React.Component {
     return (
       <div className="containerGraph" >
 
-      
-        <Bar data={data} country={country} />
-        
+
         {/* Création graphique bar  */}
-        <InfosCovid data={data} country={country} />
-        
+        <Bar data={data} country={country} />
+
         {/* Création infos nombre  */}
+        <InfosCovid data={data} country={country} />
+
 
 
 

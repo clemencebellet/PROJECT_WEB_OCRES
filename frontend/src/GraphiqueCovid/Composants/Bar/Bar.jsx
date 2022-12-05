@@ -7,7 +7,7 @@ Chart.register(LineController, LineElement, PointElement, LinearScale, BarContro
 
 const Graphe = ({ data: { confirmed, deaths }, country }) => {
   let lineChart;
-  <canvas id="myChart" width="400" height="400"></canvas>
+  // <canvas id="myChart" width="400" height="400"></canvas>
 
   const [dailyData, setDailyData] = useState([]);
 
@@ -27,7 +27,7 @@ const Graphe = ({ data: { confirmed, deaths }, country }) => {
       {/* taille du graphique */}
       <Bar
         data={{
-          labels: ["Cas", "Décès", "Actif"], //Texte en dessous du graph
+          labels: ["Cas", "Décès"], //Texte en dessous du graph
 
           datasets: [
             {
@@ -35,13 +35,13 @@ const Graphe = ({ data: { confirmed, deaths }, country }) => {
               backgroundColor: [
                 "rgba(0, 0, 255, 0.5)",
                 "rgba(255, 0, 0, 0.5)",
-                "rgba(0, 255, 0, 0.5)",
+
               ],
-              //Informations reucp de l'api 
+              //Informations recup de l'api 
               data: [
                 confirmed.value,
                 deaths.value,
-                confirmed.value - deaths.value,
+
               ],
 
             },
