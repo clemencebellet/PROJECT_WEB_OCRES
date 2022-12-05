@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useNavigate } from 'react-router-dom'
 import CreateTache from '../Back/components/create-tache.component';
 import CreateEvent from '../Back/components/create-event.component';
+import logo from '../API_Population/logo.png'
 
 
 export default function Menu() {
@@ -23,13 +24,14 @@ export default function Menu() {
         navigate('/');
     };
     return (
-        <div className='menu'>
-
+        <div>
+       <div className='align'>
+            <img className="imgpopu" src={logo} alt="fireSpot" height="75px" width="75px" />
             <h3>CityBoard</h3>
+            </div>  
             <nav>
-                <div>
-                    <div>
-
+                
+                    <div className='PlaceBouton'></div>
                         <button className="button" onClick={navigateToDash}><span>Dashboard </span></button>
                         <br />
                         <button className="button" onClick={navigateToEvent}><span>Creer un Event </span></button>
@@ -41,8 +43,7 @@ export default function Menu() {
                             <Route path="/create" element={<CreateTache />} />
                             <Route path="/event" element={<CreateEvent />} />
                         </Routes>
-                    </div>
-                </div>
+                    
 
 
 

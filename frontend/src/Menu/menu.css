@@ -3,42 +3,28 @@
     width: 25%;
     background-color: rgb(47, 64, 80);
     display: flex;
-}
-
-.menu h3 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-
-}
-
-.menu nav {
-    display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    
 }
 
-.menu a {
+
+
+.PlaceBouton{
+    margin-top: 150px;
+}
+
+.align{
     display: flex;
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-
-
+    margin-top: 10px;
+}
+.imgpopu{
+    margin-top: -15px;
 }
 
-.liste {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.items {
-    margin-bottom: 10px;
-    cursor: pointer;
-}
+
+
+
 
 body {
     font-size: .875rem;
