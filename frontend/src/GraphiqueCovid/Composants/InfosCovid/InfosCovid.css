@@ -8,17 +8,19 @@
 
 .styleCarte {
   margin-top: 20px;
-  margin-left: -200px;
+  margin-left: 50px;
 }
 
 .cas {
   background-color: rgba(102, 179, 255, 0.5) !important;
-  height: 260px;
+  height: 270px;
+
   /* ici pour changer couleur de fond de la carte cas */
 }
 
 
 .deces {
   background-color: rgba(237, 178, 178, 0.5) !important;
-  height: 260px;
+  height: 270px;
+  
 }

@@ -18,11 +18,11 @@ body {
 }
 
 .a1 {
-  width: 73%;
-  height: 30%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5px;
+  width: 500px;
+  height: 225px;
+  margin-left: 70px;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 .a3 {
@@ -31,9 +31,9 @@ body {
   height: 195px;
   font-size: 1em;
   background-color: rgb(47, 64, 80);
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: -150px;
   display: flex;
   justify-items: center;
   align-items: center;
@@ -41,32 +41,29 @@ body {
 }
 
 .a4 {
-  width: 840px;
-  height: 260px;
-  background-color: white;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 5px;
+  width: 390px;
+  height: 400px;
+  margin-right: 20px;
+  margin-left: 200px;
+  margin-top: 20  px;
 }
 
 .a5 {
   width: 351px;
   height: 195px;
   background-color: rgb(50, 50, 90);
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: -150px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .a6 {
-  height: 98%;
-  width: 25%;
-  background-color: white;
-  margin-right: 1.5%;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  justify-self: flex-end;
+  width: 500px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
