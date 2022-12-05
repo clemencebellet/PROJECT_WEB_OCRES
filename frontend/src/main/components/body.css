@@ -62,8 +62,9 @@ h2 a {
     font-weight: bold;
     font-size: 1.5em;
     text-align: center;
-    color: white;
+    color: #DCBB0C;
     margin-left: 10px;
+
 }
 
 .containerPlane td {
@@ -72,6 +73,8 @@ h2 a {
     -webkit-box-shadow: 0 2px 2px -2px #0E1119;
     -moz-box-shadow: 0 2px 2px -2px #0E1119;
     box-shadow: 0 2px 2px -2px #0E1119;
+    color: white;
+    justify-content: center;
 }
 
 

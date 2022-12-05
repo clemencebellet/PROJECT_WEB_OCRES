@@ -9,84 +9,84 @@ export default class dataAPI extends React.Component {
             <body>
 
                 <div className='containerPlane'>
-                <table class="itemPlane">
-                    <thead>
-                        <tr>
-                            <th><h1>Flight</h1></th>
+                    <table class="itemPlane">
+                        <thead>
+                            <tr>
+                                <th><h1>Flight</h1></th>
 
-                        </tr>
-                    </thead>
+                            </tr>
+                        </thead>
 
-                    <tbody>
-                        <tr>
-                            {propertyValues.map((obj) => (<div>
+                        <tbody>
+                            <tr>
+                                {propertyValues.map((obj) => (<div>
 
-                                <td><th>{obj.flight_number}</th></td>
+                                    <td><th>{obj.flight_number}</th></td>
 
-                            </div>))}
-                        </tr>
+                                </div>))}
+                            </tr>
 
-                    </tbody>
-                </table>
+                        </tbody>
+                    </table>
 
-                <table class="itemPlane">
-                    <thead>
-                        <tr>
-                            <th><h1>Destination</h1></th>
+                    <table class="itemPlane">
+                        <thead>
+                            <tr>
+                                <th><h1>Destination</h1></th>
 
-                        </tr>
-                    </thead>
+                            </tr>
+                        </thead>
 
-                    <tbody>
-                        <tr>
-                            {propertyValues.map((obj) => (<div>
+                        <tbody>
+                            <tr>
+                                {propertyValues.map((obj) => (<div>
 
-                                <td><th>{obj.arr_iata}</th></td>
+                                    <td><th>{obj.arr_iata}</th></td>
 
-                            </div>))}
-                        </tr>
+                                </div>))}
+                            </tr>
 
-                    </tbody>
-                </table>
+                        </tbody>
+                    </table>
 
-                <table class="itemPlane">
-                    <thead>
-                        <tr>
-                            <th><h1>Gate</h1></th>
+                    <table class="itemPlane">
+                        <thead>
+                            <tr>
+                                <th><h1>Gate</h1></th>
 
-                        </tr>
-                    </thead>
+                            </tr>
+                        </thead>
 
-                    <tbody>
-                        <tr>
-                            {propertyValues.map((obj) => (<div>
+                        <tbody>
+                            <tr>
+                                {propertyValues.map((obj) => (<div>
 
-                                <td><th>{obj.dep_gate}</th></td>
+                                    <td><th>{obj.dep_gate}</th></td>
 
-                            </div>))}
-                        </tr>
+                                </div>))}
+                            </tr>
 
-                    </tbody>
-                </table>
-                <table class="itemPlane">
-                    <thead>
-                        <tr>
-                            <th><h1>Estimé</h1></th>
+                        </tbody>
+                    </table>
+                    <table class="itemPlane">
+                        <thead>
+                            <tr>
+                                <th><h1>Estimé</h1></th>
 
-                        </tr>
-                    </thead>
+                            </tr>
+                        </thead>
 
-                    <tbody>
-                        <tr>
-                            {propertyValues.map((obj) => (<div>
+                        <tbody>
+                            <tr>
+                                {propertyValues.map((obj) => (<div>
 
-                                <td><th>{obj.dep_time}</th></td>
+                                    <td><th>{obj.dep_time}</th></td>
 
-                            </div>))}
-                        </tr>
+                                </div>))}
+                            </tr>
 
-                    </tbody>
-                </table>
+                        </tbody>
+                    </table>
                 </div>
             </body >
         );
