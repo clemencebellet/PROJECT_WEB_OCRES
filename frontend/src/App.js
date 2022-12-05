@@ -2,12 +2,12 @@ import React from 'react';
 import './App.css';
 import Content from "./API_Population/Appel.js";
 import Content2 from "./API_Avions/Appel_2.js";
-import Weather from "./Meteo/APIweather";
-import Forecast from "./Meteo/APIforecast";
+import Weather from "./API_Meteo/APIweather";
+import Forecast from "./API_Meteo/APIforecast";
 import Menu from "./Menu/Menu";
 import Covid from "./GraphiqueCovid/Graph"
 import TachesList from "./Back/components/taches-list.component"
-import Prosideb from './main/components/Sidebar'
+
 
 
 /*
@@ -26,9 +26,10 @@ function App() {
         {/* <div className='a1'><Weather /><Forecast /></div> */}
         <div className='a3'><Content /></div>
         {/* <div className='a5'><Content2 /></div> */}
-        {/* <div className='a4'><Covid /></div> */}
-        <TachesList />
+        <div className='a4'><Covid /></div>
+        {/* <TachesList /> */}
       </div>
+      <div className='a6'>6</div>
 
 
 

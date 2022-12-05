@@ -1,12 +1,12 @@
 .container {
   width: 100%;
   text-align: center;
-  
+
   /* rajout ligne ici pour changer la position des 3 cartes */
 
 }
 
-.styleCarte{
+.styleCarte {
   margin-top: 20px;
   margin-left: -200px;
 }
@@ -20,10 +20,5 @@
 
 .deces {
   background-color: rgba(237, 178, 178, 0.5) !important;
-  height: 260px;
-}
-
-.actif {
-  background-color: rgba(0, 242, 8, 0.5) !important;
   height: 260px;
 }

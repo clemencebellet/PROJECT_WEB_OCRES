@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
-import "../Meteo/meteo.css";
+
+import "../API_Meteo/meteo.css";
 
 
 

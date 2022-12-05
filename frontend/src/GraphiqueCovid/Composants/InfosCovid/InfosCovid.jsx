@@ -26,58 +26,53 @@ const InfosCovid = ({
       value: deaths.value,
       bottomText: "Nombre de décès à cause du Covid-19",
     },
-    {
-      style: "actif",
-      text: "Actif",
-      value: active,
-      bottomText: "Nombre de cas actuel du Covid-19",
-    },
+
   ];
   return (
     <div className="styleCarte">
-    <div className={styles.container}>
-      {/* Espace entre les cartes infos */}
-      <Grid container spacing={13}>
+      <div className={styles.container}>
+        {/* Espace entre les cartes infos */}
+        <Grid container spacing={13}>
 
-        {informations.map((detail, index) => (
-          // Modification de l'interieur d'une carte
-          <Grid
-            item
-            component={Card}
-            xs={20} 
-            md={4}
-            className={cx(styles.Card, detail.style)}
-            key={index}
-            style={{ marginTop: "-20px", padding: "15px" }}
-          >
-            <CardContent>
-              <Typography color="textPrimary" gutterBottom>
-                <b>{detail.text}</b>
-              </Typography>
-              <Typography variant="h5">
-                {/* Compteur réel des informations  */}
-                <CountUp
-                  start={0}
-                  end={detail.value}
-                  duration={2}
-                  separator=","
-                />
-              </Typography>
-              <Typography color="textPrimary">Dernière actualité  du :  </Typography>
-              <Typography color="textSecondary" variant="body2">
-                {new Date(lastUpdate).toDateString()}
-              </Typography>
-              {/* Temps/ */}
-              <Typography color="textSecondary" variant="body2">
-                {new Date(lastUpdate).toLocaleTimeString()}
-              </Typography>
-              <Typography variant="body2">{detail.bottomText}</Typography>
-              <Typography color="textPrimary"> {country} </Typography>
-            </CardContent>
-          </Grid>
-        ))}
-      </Grid>
-    </div>
+          {informations.map((detail, index) => (
+            // Modification de l'interieur d'une carte
+            <Grid
+              item
+              component={Card}
+              xs={20}
+              md={4}
+              className={cx(styles.Card, detail.style)}
+              key={index}
+              style={{ marginTop: "-20px", padding: "15px" }}
+            >
+              <CardContent>
+                <Typography color="textPrimary" gutterBottom>
+                  <b>{detail.text}</b>
+                </Typography>
+                <Typography variant="h5">
+                  {/* Compteur réel des informations  */}
+                  <CountUp
+                    start={0}
+                    end={detail.value}
+                    duration={2}
+                    separator=","
+                  />
+                </Typography>
+                <Typography color="textPrimary">Dernière actualité  du :  </Typography>
+                <Typography color="textSecondary" variant="body2">
+                  {new Date(lastUpdate).toDateString()}
+                </Typography>
+                {/* Temps/ */}
+                <Typography color="textSecondary" variant="body2">
+                  {new Date(lastUpdate).toLocaleTimeString()}
+                </Typography>
+                <Typography variant="body2">{detail.bottomText}</Typography>
+                <Typography color="textPrimary"> {country} </Typography>
+              </CardContent>
+            </Grid>
+          ))}
+        </Grid>
+      </div>
     </div>
   );
 };

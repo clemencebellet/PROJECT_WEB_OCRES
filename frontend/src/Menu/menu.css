@@ -3,75 +3,90 @@
     width: 25%;
     background-color: rgb(47, 64, 80);
     display: flex;
-    justify-content: center;
-    
 }
 
-
-
-.PlaceBouton{
-    margin-top: 150px;
-}
-
-.align{
+.menu h3 {
     display: flex;
-    margin-top: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+
 }
-.imgpopu{
-    margin-top: -15px;
+
+.menu nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+.menu a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
 
 
+}
 
+.liste {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.items {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
 
 body {
     font-size: .875rem;
 }
 
-.feather {
-    width: 16px;
-    height: 16px;
-}
+    .feather {
+        width: 16px;
+        height: 16px;
+    }
 
-.button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: rgb(47, 64, 80);
-    ;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 10px;
-    padding: 20px;
-    width: 100px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-}
+    .button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: rgb(47, 64, 80);
+        ;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 10px;
+        padding: 20px;
+        width: 100px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
 
-.button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
+    .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
 
-.button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
+    .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
 
-.button:hover span {
-    padding-right: 25px;
-}
+    .button:hover span {
+        padding-right: 25px;
+    }
 
-.button:hover span:after {
-    opacity: 1;
-    right: 0;
+    .button:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
 }

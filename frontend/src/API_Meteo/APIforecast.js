@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
 import Day from "./Day";
-import "../Meteo/meteo.css";
+import "../API_Meteo/meteo.css";
+
 
 export default class APIforecast extends Component {
     constructor(props) {
