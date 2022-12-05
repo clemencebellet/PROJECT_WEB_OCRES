@@ -26,11 +26,11 @@ export default function Menu() {
     return (
         <div>
        <div className='align'>
-            <img className="imgpopu" src={logo} alt="fireSpot" height="75px" width="75px" />
+            <img className="imgpopu2" src={logo} alt="fireSpot" height="75px" width="75px" />
             <h3>CityBoard</h3>
             </div>  
             <nav>
-                
+
                     <div className='PlaceBouton'></div>
                         <button className="button" onClick={navigateToDash}><span>Dashboard </span></button>
                         <br />
