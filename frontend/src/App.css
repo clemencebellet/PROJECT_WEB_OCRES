@@ -33,7 +33,7 @@ body {
   background-color: rgb(47, 64, 80);
   margin-right: 20px;
   margin-left: 20px;
-  margin-top: -150px;
+  margin-top: -125px;
   display: flex;
   justify-items: center;
   align-items: center;
@@ -45,7 +45,7 @@ body {
   height: 400px;
   margin-right: 20px;
   margin-left: 200px;
-  margin-top: 20  px;
+  margin-top: 20px;
 }
 
 .a5 {
@@ -54,7 +54,7 @@ body {
   background-color: rgb(50, 50, 90);
   margin-right: 20px;
   margin-left: 20px;
-  margin-top: -150px;
+  margin-top: -125px;
   display: flex;
   align-items: center;
   justify-content: center;
