@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-const tacheSchema = new Schema({
+const tacheMongo = new Schema({
     eventname: { type: String, required: true },
     description: { type: String, required: true },
     duration: { type: Number, required: true },
@@ -11,6 +11,6 @@ const tacheSchema = new Schema({
     timestamps: true,
 });
 
-const Tache = mongoose.model('Tache', tacheSchema);
+const Tache = mongoose.model('Tache', tacheMongo);
 
 module.exports = Tache;
